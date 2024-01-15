@@ -9,6 +9,8 @@
     "preview": "astro preview",
     "astro": "astro"
   },
+  "author": "Manul Thanura",
+  "license": "ISC",
   "dependencies": {
     "@astrojs/tailwind": "^5.1.0",
     "astro": "^4.1.2",
