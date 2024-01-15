@@ -1,61 +1,69 @@
----
-interface Props {
-	title: string;
-	body: string;
-	href: string;
-}
+<div class="testimonial">
+	<div class="container3">
+		<div class="row">
+		<div class="hello-iam">My</div>
+		<div class="evren-shah">Experience</div>
+		</div>
+		<div class="row3">
+		<div class="experience1">
+			<div class="frame-container">
+			<div class="google-parent">
+				<img class="google-icon" alt="" src="./public/google.svg" />
 
-const { href, title, body } = Astro.props;
----
+				<div class="lead-software-engineer">
+				Lead Software Engineer at Google
+				</div>
+			</div>
+			<div class="nov-2019-">Nov 2019 - Present</div>
+			</div>
+			<div class="as-a-senior">
+			As a Senior Software Engineer at Google, I played a pivotal role
+			in developing innovative solutions for Google's core search
+			algorithms. Collaborating with a dynamic team of engineers, I
+			contributed to the enhancement of search accuracy and
+			efficiency, optimizing user experiences for millions of users
+			worldwide.
+			</div>
+		</div>
+		<div class="experience2">
+			<div class="frame-container">
+			<div class="google-parent">
+				<img class="youtube-icon" alt="" src="./public/youtube.svg" />
 
-<li class="link-card">
-	<a href={href}>
-		<h2>
-			{title}
-			<span>&rarr;</span>
-		</h2>
-		<p>
-			{body}
-		</p>
-	</a>
-</li>
-<style>
-	.link-card {
-		list-style: none;
-		display: flex;
-		padding: 1px;
-		background-color: #23262d;
-		background-image: none;
-		background-size: 400%;
-		border-radius: 7px;
-		background-position: 100%;
-		transition: background-position 0.6s cubic-bezier(0.22, 1, 0.36, 1);
-		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
-	}
-	.link-card > a {
-		width: 100%;
-		text-decoration: none;
-		line-height: 1.4;
-		padding: calc(1.5rem - 1px);
-		border-radius: 8px;
-		color: white;
-		background-color: #23262d;
-		opacity: 0.8;
-	}
-	h2 {
-		margin: 0;
-		font-size: 1.25rem;
-		transition: color 0.6s cubic-bezier(0.22, 1, 0.36, 1);
-	}
-	p {
-		margin-top: 0.5rem;
-		margin-bottom: 0;
-	}
-	.link-card:is(:hover, :focus-within) {
-		background-position: 0;
-		background-image: var(--accent-gradient);
-	}
-	.link-card:is(:hover, :focus-within) h2 {
-		color: rgb(var(--accent-light));
-	}
-</style>
+				<div class="lead-software-engineer">
+				Software Engineer at Youtube
+				</div>
+			</div>
+			<div class="nov-2019-">Jan 2017 - Oct 2019</div>
+			</div>
+			<div class="as-a-senior1">
+			At Youtube, I served as a Software Engineer, focusing on the
+			design and implementation of backend systems for the social
+			media giant's dynamic platform. Working on projects that
+			involved large-scale data processing and user engagement
+			features, I leveraged my expertise to ensure seamless
+			functionality and scalability.
+			</div>
+		</div>
+		<div class="experience1">
+			<div class="frame-container">
+			<div class="google-parent">
+				<img class="google-icon" alt="" src="./public/apple.svg" />
+
+				<div class="lead-software-engineer">
+				Junior Software Engineer at Apple
+				</div>
+			</div>
+			<div class="nov-2019-">Jan 2016 - Dec 2017</div>
+			</div>
+			<div class="as-a-senior">
+			During my tenure at Apple, I held the role of Software
+			Architect, where I played a key role in shaping the architecture
+			of mission-critical software projects. Responsible for designing
+			scalable and efficient systems, I provided technical leadership
+			to a cross-functional team.
+			</div>
+		</div>
+		</div>
+	</div>
+</div>
