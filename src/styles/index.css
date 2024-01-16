@@ -226,7 +226,7 @@
   z-index: 1;
 }
 .container1,
-.hero-section,
+/* .hero-section,
 .row {
   overflow: hidden;
   display: flex;
@@ -239,7 +239,7 @@
   padding: var(--padding-41xl) var(--padding-61xl);
   box-sizing: border-box;
   position: relative;
-}
+} */
 .row {
   align-self: stretch;
   align-items: center;
