@@ -29,7 +29,7 @@ export default {
 		},
 		extend: {
 		  margin: {
-			  '5px': '5px',
+			  '4px': '4px',
 		  },
 		  spacing: {
 			'128': '32rem',
