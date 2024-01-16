@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 .logo-1-icon {
   position: relative;
   width: 39.9px;
