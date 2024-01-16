@@ -27,11 +27,11 @@ export default {
 				900: '#1a202c',
 			},
 		},
-		fontFamily: {
-		  sora: ['Sora', 'sans-serif'],
-		  sans: ['Graphik', 'sans-serif']
-		},
 		extend: {
+		  fontFamily: {
+			'body': ['Sora', 'sans-serif'],
+
+		  },
 		  margin: {
 			  '4px': '4px',
 		  },
