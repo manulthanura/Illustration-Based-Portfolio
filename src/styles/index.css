@@ -54,7 +54,7 @@
   flex-shrink: 0;
 }
 .button,
-.container,
+/* .container, */
 .header {
   display: flex;
   flex-direction: row;
@@ -70,17 +70,17 @@
   gap: 8px;
   color: var(--primary-white);
 }
-.container,
+/* .container, */
 .header {
   overflow: hidden;
 }
-.container {
+/* .container {
   width: 1280px;
   flex-shrink: 0;
   align-items: center;
   justify-content: space-between;
   padding: 0 var(--padding-13xl);
-}
+} */
 .header {
   width: 1440px;
   align-items: flex-start;
