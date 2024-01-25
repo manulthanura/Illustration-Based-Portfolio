@@ -10,7 +10,7 @@ export default {
 		},
 		container: {
 			center: true,
-			padding: '2rem',
+			padding: '6rem',
 		},
 		colors: {
 			'black': '#000',
