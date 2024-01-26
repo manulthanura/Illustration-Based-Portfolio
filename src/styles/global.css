@@ -13,12 +13,13 @@
 
 
 .project {
-  background-color: black;
-  color: white;
-  padding: 1rem;
-  border-radius: 1rem;
-  margin: 1rem;
+  background-color: #1a202c;
+  padding-top: 2.5rem;
+  padding-bottom: 8rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 6rem;
 }
