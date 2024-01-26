@@ -1,14 +1,17 @@
 ```
-// Define your navigation links here
-const navLinks = [
-  { href: '/', label: 'Home' },
-  { href: '/about', label: 'About' },
-  { href: '/services', label: 'Services' },
-  { href: '/pricing', label: 'Pricing' },
-  { href: '/contact', label: 'Contact' },
-];
+
 ---
 <script>
+
+    // Define your navigation links here
+    const navLinks = [
+    { href: '/', label: 'Home' },
+    { href: '/about', label: 'About' },
+    { href: '/services', label: 'Services' },
+    { href: '/pricing', label: 'Pricing' },
+    { href: '/contact', label: 'Contact' },
+    ];
+
     document.addEventListener('DOMContentLoaded', (event) => {
         const toggleButton = document.querySelector('[data-collapse-toggle="navbar-default"]');
         const navbar = document.getElementById('navbar-default');
