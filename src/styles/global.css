@@ -11,17 +11,3 @@
   }
 }
 
-
-.project {
-  background-color: #1a202c;
-  padding-top: 2.5rem;
-  padding-bottom: 8rem;
-  margin-top: 6rem;
-  margin-bottom: 6rem;
-  margin-left: 0%;
-  margin-right: 0%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 6rem;
-}
