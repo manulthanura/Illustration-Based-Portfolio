@@ -29,7 +29,7 @@ export default {
 		},
 		extend: {
 		  fontFamily: {
-			'body': ['Sora', 'sans-serif']
+			'primary': ['Sora']
 		  },
 		  margin: {
 			  '4px': '4px',
