@@ -4,8 +4,8 @@
 
 
 @layer base {
-  .font-outline-2 {
-    -webkit-text-stroke: 2px black;
+  .font-outline {
+    -webkit-text-stroke: 2.5px black;
     background-color: transparent;
   }
   .font-outline-4 {
