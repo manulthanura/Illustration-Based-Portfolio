@@ -29,7 +29,8 @@ export default {
 		},
 		extend: {
 		  fontFamily: {
-			'Sora': ['Sora']
+			'Sora': ['Sora'],
+			'Inter': ['Inter']
 		  },
 		  margin: {
 			  '4px': '4px',
