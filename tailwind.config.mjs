@@ -15,7 +15,7 @@ export default {
 		colors: {
 			'black': '#000',
 			'white': '#fff',
-			'text-zinc': {
+			'zinc': {
 				100: '#F8F8F8',
 				200: '#F0F0F0',
 				300: '#E8E8E8',
