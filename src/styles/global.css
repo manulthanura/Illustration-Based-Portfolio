@@ -8,8 +8,8 @@
     -webkit-text-stroke: 2.5px black;
     background-color: transparent;
   }
-  .font-outline-4 {
-    -webkit-text-stroke: 4px black;
+  .font-outline-sm {
+    -webkit-text-stroke: 0.5px black;
     background-color: transparent;
   }
 }
