@@ -8,13 +8,6 @@ export default {
 		  lg: '976px',
 		  xl: '1440px',
 		},
-		container: {
-			padding: {
-				md: '2rem',
-				lg: '3rem',
-				xl: '4rem',
-				'2xl': '5rem',}
-		},
 		colors: {
 			'black': '#000',
 			'white': '#fff',
