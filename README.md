@@ -16,7 +16,13 @@ Inside of your Astro project, you'll see the following folders and files:
 │   └── assets
 ├── src/
 │   ├── components/
-│   │   └── Card.astro
+│   │   ├── Nav.astro
+│   │   ├── Hero.astro
+│   │   ├── About.astro
+│   │   ├── Skills.astro
+│   │   ├── Projects.astro
+│   │   ├── Contact.astro
+|   │   └── Footer.astro
 │   ├── layouts/
 │   │   └── Layout.astro
 │   └── pages/
