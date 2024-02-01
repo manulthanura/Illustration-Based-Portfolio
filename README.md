@@ -2,7 +2,8 @@
 
 A portfolio template built with astro and tailwindcss for illustrators and designers.
 
-![Static Badge](https://img.shields.io/badge/UI%2FUX-Jhanvi%20Shah-blue)
+![Static Badge](https://img.shields.io/badge/UI%2FUX-Jhanvi%20Shah-blue) ![Static Badge](https://img.shields.io/badge/Develop-Manul_Thanura-red)
+
 
 
 
