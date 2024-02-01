@@ -1,6 +1,7 @@
 # Illustration Based Portfolio Website Template
 
 A portfolio template built with astro and tailwindcss for illustrators and designers.
+
 ![Static Badge](https://img.shields.io/badge/UI%2FUX-Jhanvi%20Shah-blue?link=https%3A%2F%2Fwww.figma.com%2Fcommunity%2Ffile%2F1318529372146880502%2Fillustration-based-portfolio-website-template)
 
 
