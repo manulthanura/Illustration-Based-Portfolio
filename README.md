@@ -65,4 +65,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 - [Tailwindcss](https://tailwindcss.com)
 
 
-Ui/Ux Design by [Jhanvi Shah](https://www.figma.com/@jhanvishah) and Developed by [Manul Thanura](https://github.com/manulthanura)
+UI/UX Design by [Jhanvi Shah](https://www.figma.com/@jhanvishah) and Developed by [Manul Thanura](https://github.com/manulthanura)
