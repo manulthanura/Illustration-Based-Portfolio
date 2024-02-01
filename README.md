@@ -63,3 +63,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 - [Astro](https://astro.build)
 - [Tailwindcss](https://tailwindcss.com)
+
+
+Ui/Ux Design by [Jhanvi Shah](https://www.figma.com/@jhanvishah) and Developed by [Manul Thanura]()
