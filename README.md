@@ -1,4 +1,4 @@
-# Astro Starter Kit: Basics
+# Illustration Based Portfolio Website Template
 
 ```sh
 npm create astro@latest -- --template basics
