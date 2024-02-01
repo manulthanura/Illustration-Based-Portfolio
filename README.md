@@ -53,4 +53,13 @@ All commands are run from the root of the project, from a terminal:
 
 ## 👀 Want to learn more?
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Feel free to check [Astro documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## 🙏 Acknowledgments
+
+- [Astro](https://astro.build)
+- [Tailwindcss](https://tailwindcss.com)
