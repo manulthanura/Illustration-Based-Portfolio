@@ -9,8 +9,11 @@ export default {
 		  xl: '1440px',
 		},
 		container: {
-			center: true,
-			padding: '2rem',
+			padding: {
+				md: '2rem',
+				lg: '3rem',
+				xl: '4rem',
+				'2xl': '5rem',}
 		},
 		colors: {
 			'black': '#000',
