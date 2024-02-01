@@ -2,7 +2,7 @@
 
 A portfolio template built with astro and tailwindcss for illustrators and designers.
 
-![just-the-basics]()
+![just-the-basics](./public/Cover.jpg)
 
 ## 🚀 Project Structure
 
