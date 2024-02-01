@@ -2,7 +2,7 @@
 
 A portfolio template built with astro and tailwindcss for illustrators and designers.
 
-![https://www.figma.com/community/file/1318529372146880502/illustration-based-portfolio-website-template](https://img.shields.io/badge/UI%2FUX-Jhanvi%20Shah-blue)
+![Static Badge](https://img.shields.io/badge/UI%2FUX-Jhanvi%20Shah-blue)
 
 
 
