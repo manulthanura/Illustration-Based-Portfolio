@@ -26,16 +26,6 @@ export default {
 		extend: {
 		  fontFamily: {
 			'Sora': ['Sora']
-		  },
-		  margin: {
-			  '4px': '4px',
-		  },
-		  spacing: {
-			'128': '32rem',
-			'144': '36rem',
-		  },
-		  borderRadius: {
-			'4xl': '2rem',
 		  }
 		}
 	  },
