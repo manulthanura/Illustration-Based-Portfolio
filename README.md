@@ -8,14 +8,14 @@ A uncluttered minimal Astro.js + Tailwind CSS theme designed for those who appre
 
 ## Theme Features
 
-Portfolio collection
-View transitions
-Tailwind CSS
-Mobile-first responsive layout
-SEO-friendly with canonical URLs and OpenGraph data
-Sitemap support
-RSS Feed support
-Markdown & MDX support
+- **Tailwind CSS**: The website is built using Tailwind CSS.
+- **Astro.js**: The website is built using Astro.js.
+- **Minimalistic Design**: A clean and minimalistic design that focuses on your content.
+- **Illustration Based**: Illustrations are used to make the website more engaging.
+- **Responsive**: Fully responsive and Mobile-first responsive layout.
+- **SEO Friendly**: The website is SEO friendly with canonical URLs and OpenGraph data.
+- **Dark Mode**: The website supports dark mode.
+- **Markdown & MDX Support**: Write your content in markdown or MDX.
 
 ## 🚀 Project Structure
 
