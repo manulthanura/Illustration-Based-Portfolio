@@ -8,10 +8,15 @@
             </div>
             <div class="flex mt-4 md:m-0">
                 <div class="-mx-4">
-                    <div class="text-white">@ 2019-2023 Personal</div>
+                    <div class="text-white" >@ <span id="currentYear"></span> Personal</div>
                     <div class="text-white">Made with Astro</div>
                 </div>
             </div>
         </div>
     </div>
 </footer>
+
+<script>
+    const year = new Date().getFullYear();
+    document.getElementById("currentYear").innerHTML = `${year}`;
+</script>

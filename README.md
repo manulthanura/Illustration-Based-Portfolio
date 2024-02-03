@@ -1,10 +1,22 @@
 # Illustration Based Portfolio Website Template
 
-A portfolio template built with astro and tailwindcss for illustrators and designers.
+A uncluttered minimal Astro.js + Tailwind CSS theme designed for those who appreciate clarity and minimalism.
 
-![Static Badge](https://img.shields.io/badge/UI%2FUX-Jhanvi%20Shah-blue) ![Static Badge](https://img.shields.io/badge/Develop-Manul_Thanura-red)
+![Static Badge](https://img.shields.io/badge/UI%2FUX-Jhanvi%20Shah-blue) ![View Demo](https://img.shields.io/badge/Develop-Manul_Thanura-red)
+[![Static Badge](https://img.shields.io/badge/View_Demo-green)](https://illustration-based-portfolio.vercel.app)
 
 ![Cover](./public/Cover.jpg)
+
+## Theme Features
+
+- **Tailwind CSS**: The website is built using Tailwind CSS.
+- **Astro.js**: The website is built using Astro.js.
+- **Minimalistic Design**: A clean and minimalistic design that focuses on your content.
+- **Illustration Based**: Illustrations are used to make the website more engaging.
+- **Responsive**: Fully responsive and Mobile-first responsive layout.
+- **SEO Friendly**: The website is SEO friendly with canonical URLs and OpenGraph data.
+- **Dark Mode**: The website supports dark mode.
+- **Markdown & MDX Support**: Write your content in markdown or MDX.
 
 ## 🚀 Project Structure
 
