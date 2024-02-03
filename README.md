@@ -1,6 +1,6 @@
 # Illustration Based Portfolio Website Template
 
-A portfolio template built with astro and tailwindcss for illustrators and designers.
+A uncluttered minimal Astro.js + Tailwind CSS theme designed for those who appreciate clarity and minimalism.
 
 ![Static Badge](https://img.shields.io/badge/UI%2FUX-Jhanvi%20Shah-blue) ![Static Badge](https://img.shields.io/badge/Develop-Manul_Thanura-red)
 
