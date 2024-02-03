@@ -8,7 +8,6 @@ A uncluttered minimal Astro.js + Tailwind CSS theme designed for those who appre
 
 ## Theme Features
 
-Hero section with bio
 Portfolio collection
 View transitions
 Tailwind CSS
