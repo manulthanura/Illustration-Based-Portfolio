@@ -8,13 +8,15 @@ A uncluttered minimal Astro.js + Tailwind CSS theme designed for those who appre
 
 ## Theme Features
 
-- **Astro.js** - A new kind of static site builder that delivers lightning-fast performance with modern dev tools.
-- **Tailwind CSS** - A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.
-- **Responsive Design** - Your website will look great on any device, from mobile to desktop.
-- **SEO Friendly** - Optimized for search engines to index your site.
-- **Performance** - Optimized for performance with minimal footprint.
-- **Illustration** - Illustration based design to make your website more attractive.
-- **Contact Form** - A simple contact form to get in touch with you.
+Hero section with bio
+Portfolio collection
+View transitions
+Tailwind CSS
+Mobile-first responsive layout
+SEO-friendly with canonical URLs and OpenGraph data
+Sitemap support
+RSS Feed support
+Markdown & MDX support
 
 ## 🚀 Project Structure
 
