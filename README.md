@@ -6,6 +6,8 @@ A uncluttered minimal Astro.js + Tailwind CSS theme designed for those who appre
 
 ![Cover](./public/Cover.jpg)
 
+## Theme Features
+
 ## 🚀 Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
