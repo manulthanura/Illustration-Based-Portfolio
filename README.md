@@ -2,7 +2,7 @@
 
 A uncluttered minimal Astro.js + Tailwind CSS theme designed for those who appreciate clarity and minimalism.
 
-![Static Badge](https://img.shields.io/badge/UI%2FUX-Jhanvi%20Shah-blue) [![View Demo](https://img.shields.io/badge/Develop-Manul_Thanura-red)](https://lk.linkedin.com/in/manulthanura)
+[![Static Badge](https://img.shields.io/badge/UI%2FUX-Jhanvi%20Shah-blue)](https://www.linkedin.com/in/jhanvi-shah-5446551a0/) [![View Demo](https://img.shields.io/badge/Develop-Manul_Thanura-red)](https://lk.linkedin.com/in/manulthanura)
 [![Static Badge](https://img.shields.io/badge/View_Demo-green)](https://illustration-based-portfolio.vercel.app)
 
 ![Cover](./public/Cover.jpg)
