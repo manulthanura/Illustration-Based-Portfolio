@@ -1,4 +1,4 @@
-# Illustration Based Portfolio Website Template
+# Illustration Based Portfolio
 
 A uncluttered minimal Astro.js + Tailwind CSS theme designed for those who appreciate clarity and minimalism.
 
