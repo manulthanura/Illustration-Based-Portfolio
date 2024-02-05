@@ -46,19 +46,11 @@ const navLinks = [
 
 
 <script>
-    document.addEventListener('DOMContentLoaded', (event) => {
-        const toggleButton = document.querySelector('[data-collapse-toggle="navbar-default"]');
-        const navbar = document.getElementById('navbar-default');
-        const navbarLinks = navbar.querySelectorAll('a');
+document.addEventListener('DOMContentLoaded', () => {
+  const navbar = document.getElementById('navbar-default');
 
-        toggleButton.addEventListener('click', () => {
-            navbar.classList.toggle('hidden');
-        });
+  document.querySelector('[data-collapse-toggle="navbar-default"]').addEventListener('click', () => navbar.classList.toggle('hidden'));
 
-        navbarLinks.forEach(link => {
-            link.addEventListener('click', () => {
-                navbar.classList.add('hidden');
-            });
-        });
-    });
+  navbar.querySelectorAll('a').forEach(link => link.addEventListener('click', () => navbar.classList.add('hidden')));
+});
 </script>
