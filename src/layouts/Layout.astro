@@ -1,22 +1,37 @@
 ---
-// import CSS
-import '../styles/global.css';
-// import '../styles/index.css';
+import "../styles/global.css";
+import { AstroFont } from "astro-font";
 ---
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="description" content="Astro description" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/logo-1.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Portfolio</title>
-		<meta name="description" content="A portfolio template built with astro and tailwindcss">
-		<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-	</head>
-	<body class="bg-white font-Sora">
-		<slot />
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/logo-1.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Portfolio</title>
+    <meta
+      name="description"
+      content="A portfolio template built with astro and tailwindcss"
+    />
+    <AstroFont
+      config={[
+        {
+          src: [],
+          name: "Sora",
+          preload: false,
+          display: "swap",
+          fallback: "sans-serif",
+          cssVariable: "font-sora",
+          googleFontsURL:
+            "https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800",
+        },
+      ]}
+    />
+  </head>
+  <body class="bg-white font-Sora">
+    <slot />
+  </body>
 </html>
