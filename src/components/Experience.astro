@@ -1,3 +1,7 @@
+---
+import workData from './Data/Experience.json';
+---
+
 <section class="self-stretch bg-black overflow-hidden flex flex-row items-start justify-start md:py-[60px] md:px-20 max-w-full">
     <div class="flex-1 overflow-hidden flex flex-col items-center py-0 md:px-8 box-border gap-[20px] max-w-full">
         <div class="self-stretch overflow-hidden flex flex-row items-center justify-center py-5 px-0 gap-[16px] ">
@@ -5,32 +9,30 @@
         </div>
         <div class="self-stretch overflow-hidden flex flex-col items-start justify-start py-10 px-6 gap-[32px]">
         <!-- card start-->
+        {
+        workData.map(({title, description, company, companyLogo, startDate, endDate } ) => (
         <div class="self-stretch rounded-3xs box-border flex flex-col items-start justify-start py-[30px] px-[23px] gap-[28px] max-w-full border-[1px] border-solid border-zinc-500 rounded-lg">
             <div class="self-stretch flex md:flex-row flex-col items-center justify-between max-w-full">
                 <div class="flex flex-row items-center justify-start gap-7 max-w-full">
                     <img
                     class="h-8 w-8 relative overflow-hidden shrink-0"
                     loading="eager"
-                    alt="google logo"
-                    src="/logos/google.svg"/>
+                    alt={company}
+                    src={companyLogo}/>
 
-                    <h3 class="text-left text-white md:text-2xl text-xl font-semibold leading-7">
-                    Lead Software Engineer at Google
-                    </h3>
+                    <h3 class="text-left text-white md:text-2xl text-xl font-semibold leading-7">{title}</h3>
                 </div>
                 <div class="self-start mt-4 md:mt-0">
-                    <p class="text-zinc-300 text-base font-semibold leading-tight">Nov 2019 - Present</p>
+                    <p class="text-zinc-300 text-base font-semibold leading-tight">{startDate} - {endDate}</p>
                 </div>
             </div>
-            <div class="text-justify text-base font-normal leading-normal text-zinc-300 tracking-tight">
-            As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search
-            algorithms. Collaborating with a dynamic team of engineers, contributed to the enhancement of search accuracy and
-            efficiency, optimizing user experiences for millions of users worldwide.
+            <div class="text-justify text-base font-normal leading-normal text-zinc-300 tracking-tight">{description}
             </div>
         </div>
-        <!-- card end-->
+        ))
+        }
         <!-- card start-->
-        <div class="self-stretch rounded-3xs box-border flex flex-col items-start justify-start py-[30px] px-[23px] gap-[28px] max-w-full  bg-zinc-900 rounded-lg">
+        <!-- <div class="self-stretch rounded-3xs box-border flex flex-col items-start justify-start py-[30px] px-[23px] gap-[28px] max-w-full  bg-zinc-900 rounded-lg">
             <div class="self-stretch flex md:flex-row flex-col items-center justify-between max-w-full">
                 <div class="flex flex-row items-center justify-start gap-7 max-w-full">
                     <img
@@ -52,31 +54,7 @@
             media giant's dynamic platform. Working on projects that involved large-scale data processing and user engagement
             features, I leveraged my expertise to ensure seamless functionality and scalability.
             </div>
-        </div>
-        <!-- card end-->
-        <!-- card start-->
-        <div class="self-stretch rounded-3xs box-border flex flex-col items-start justify-start py-[30px] px-[23px] gap-[28px] max-w-full border-[1px] border-solid border-zinc-500 rounded-lg">
-            <div class="self-stretch flex md:flex-row flex-col items-center justify-between max-w-full">
-                <div class="flex flex-row items-center justify-start gap-7 max-w-full">
-                    <img
-                    class="h-8 w-8 relative overflow-hidden shrink-0"
-                    loading="eager"
-                    alt="apple"
-                    src="/logos/apple.svg"/>
-
-                    <h3 class="text-left text-white md:text-2xl text-xl font-semibold leading-7">
-                        Junior Software Engineer at Apple
-                    </h3>
-                </div>
-                <div class="self-start mt-4 md:mt-0">
-                    <p class="text-zinc-300 text-base font-semibold leading-tight">Jan 2016 - Dec 2017</p>
-                </div>
-            </div>
-            <div class="text-justify text-base font-normal leading-normal text-zinc-300 tracking-tight">
-                During my tenure at Apple, I held the role of Software Architect, where I played a key role in shaping the architecture
-                of mission-critical software projects. Responsible for designing scalable and efficient systems, I provided technical leadership to a cross-functional team.
-            </div>
-        </div>
+        </div> -->
         <!-- card end-->
         </div>
     </div>

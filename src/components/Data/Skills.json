@@ -1,0 +1,42 @@
+[
+    {
+        "skill": "Git",
+        "src": "/icons/icongit.svg"
+    },
+    {
+        "skill": "Javascript",
+        "src": "/icons/iconjavscript.svg"
+    },
+    {
+        "skill": "Sass/Scss",
+        "src": "/icons/iconsass.svg"
+    },
+    {
+        "skill": "Nest.Js",
+        "src": "/icons/iconnest.svg"
+    },
+    {
+        "skill": "Storybook",
+        "src": "/icons/iconstorybook.svg"
+    },
+    {
+        "skill": "Socket.io",
+        "src": "/icons/iconsocket.svg"
+    },
+    {
+        "skill": "Nest.Js",
+        "src": "/icons/iconnest.svg"
+    },
+    {
+        "skill": "Git",
+        "src": "/icons/icongit.svg"
+    },
+    {
+        "skill": "Storybook",
+        "src": "/icons/iconstorybook.svg"
+    },
+    {
+        "skill": "Sass/Scss",
+        "src": "/icons/iconsass.svg"
+    }
+]
